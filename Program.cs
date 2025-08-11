@@ -15,7 +15,7 @@ class program
             new Product{name="Washing Machin",category="Home Appliance",price=28000,stock=3},
             new Product{name="Office Chair",category="Furniture",price=8000,stock=15 },
             new Product{name="Table Lame",category="Furniture",price=1500,stock=40},
-            new Product{name="Book shelf",category="Furniture",price=5000,stock=12}
+            new Product{name="Book shelf",category="Furniture",price=5000,stock=13}
         };
         var uptenk = products.Where(i => i.price > 10000);
         Console.WriteLine("Whoe's price over 10 thousend:");
